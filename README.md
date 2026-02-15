@@ -122,8 +122,65 @@ This assignment highlights:
 
 The implementation demonstrates the complete machine learning lifecycle — from raw data to deployment, monitoring, and retraining — entirely managed manually.
 
+## How to Run the Project
+
+This section explains how to run the project end-to-end, covering data preparation, model training, deployment, monitoring, and retraining.
+
 ---
 
+### 1. Environment Setup
+
+Ensure that **Python 3.9 or higher** is installed.
+
+Install the required dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+### 2. Preprocessing 
+Run the data preprocessing script:
+
+```bash
+python src/data_prep.py
+
+```
+
+### 3. Training
+Train the model using the configuration specified in config.yaml:
+
+```bash
+python src/train.py
+```
+
+### 4. Start the FastAPI inference server:
+
+```bash
+uvicorn src.inference:app --port 8000
+```
+
+Available Endpoints:  GET http://127.0.0.1:8000/
+
+### 5. SMOKE tests 
+```bash
+python src/smoke_tests.py
+```
+
+### 6. Simulate Data Drift (Day-2 Data)
+```bash
+python src/create_day2_data.py
+```
+
+### 7. Send the drifted data through the deployed API:
+```bash
+python src/run_day2_inference.py
+```
+
+### 7.Monitor Production Performance
+```bash
+python src/monitor.py
+```
+---
+for updating rerun the pipline
 ## Notes
 
 - No automated MLOps tools were used  
