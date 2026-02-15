@@ -108,28 +108,6 @@ Beyond model training, the assignment emphasizes:
 - A new model version is trained and redeployed  
 - Post-retraining stability is verified using monitoring and smoke tests  
 
----
-
-## Project Structure
-
-├── config.yaml
-├── README.md
-├── data/
-│ ├── raw/
-│ ├── processed/
-│ └── production/
-├── models/
-│ ├── model_v*.pkl
-│ └── metadata_v*.json
-├── src/
-│ ├── data_prep.py
-│ ├── train.py
-│ ├── inference.py
-│ ├── monitor.py
-│ ├── run_day2_inference.py
-│ └── smoke_tests.py
-├── deployment_log.csv
-└── prediction_log.json
 
 
 ---
