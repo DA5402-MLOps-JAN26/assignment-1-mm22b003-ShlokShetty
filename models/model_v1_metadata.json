@@ -1,0 +1,22 @@
+{
+    "model_version": "v1",
+    "trained_on": "2026-02-14 02:37:05",
+    "data_version": "v2",
+    "training_data": "data/processed\\v2_train.csv",
+    "test_data": "data/processed\\v2_test.csv",
+    "git_commit": "f1a03d2316ac64040d7e5777a1ad79582cd4c90d",
+    "model": {
+        "algorithm": "LogisticRegression",
+        "hyperparameters": {
+            "version": "v1",
+            "algorithm": "LogisticRegression",
+            "max_iter": 1000,
+            "random_state": 42
+        }
+    },
+    "metrics": {
+        "train_accuracy": 0.9654285714285714,
+        "test_accuracy": 0.981,
+        "test_f1": 0.14925373134328357
+    }
+}

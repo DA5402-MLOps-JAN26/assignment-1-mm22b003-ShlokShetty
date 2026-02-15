@@ -1,0 +1,25 @@
+{
+    "model_version": "v5",
+    "trained_on": "2026-02-15 14:56:13",
+    "data_version": "v2",
+    "training_data": "data/processed\\v2_train.csv",
+    "test_data": "data/processed\\v2_test.csv",
+    "git_commit": "f1a03d2316ac64040d7e5777a1ad79582cd4c90d",
+    "model": {
+        "algorithm": "RandomForest",
+        "hyperparameters": {
+            "version": "v5",
+            "algorithm": "RandomForest",
+            "n_estimators": 100,
+            "max_depth": 40,
+            "random_state": 42
+        }
+    },
+    "metrics": {
+        "train_accuracy": 1.0,
+        "test_accuracy": 0.9896666666666667,
+        "test_f1": 0.6868686868686869,
+        "test_precsion": 0.8947368421052632,
+        "test_recall": 0.5573770491803278
+    }
+}

@@ -1,0 +1,68 @@
+
+Data Version: v1
+------------------------------
+Created on: 2026-02-13 16:38:21.124799
+Created by script: src/data_prep.py
+Input data: data/raw/dataset_raw.csv
+
+Operations:
+- Dropped identifier columns (UDI, Product ID) and other target columns since it is a binary classification problem.
+
+- Split data chronologically(train size : 7000)
+
+Outputs:
+- Cleaned data: data/processed\v1_cleaned.csv
+- Training data: data/processed\v1_train.csv (first 7000 rows)
+- Test data: data/processed\v1_test.csv (remaining rows)
+
+Target:
+- Machine failure
+
+
+
+
+Data Version: v2
+------------------------------
+Created on: 2026-02-13 18:16:26.046321
+Created by script: src/data_prep.py
+Input data: data/raw/dataset_raw.csv
+
+Operations:
+- Dropped identifier columns (UDI, Product ID) and other target columns since it is a binary classification problem.
+
+- Encoded 'Type' column as L=0, M=1, H=2 since ML models dont recognize string types(Not done in v1 which gave errors in subsequent stages)
+- Split data chronologically(train size : 7000)
+
+Outputs:
+- Cleaned data: data/processed\v2_cleaned.csv
+- Training data: data/processed\v2_train.csv (first 7000 rows)
+- Test data: data/processed\v2_test.csv (remaining rows)
+
+Target:
+- Machine failure
+
+
+
+Data Version: v3
+------------------------------
+Created on: 2026-02-15 14:53:54.763684
+Created by script: src/data_prep.py
+Input data: data/raw/dataset_raw.csv
+
+Operations:
+- Dropped identifier columns (UDI, Product ID) and other target columns since it is a binary classification problem.
+- Encoded 'Type' column as L=0, M=1, H=2.
+- Split data chronologically (train size: 7000)
+
+- Day-2 data available
+- added samples to training set for retraining.
+
+Outputs:
+- Cleaned data: data/processed\v3_cleaned.csv
+- Training data: data/processed\v3_train.csv
+- Test data: data/processed\v3_test.csv
+
+Target:
+- Machine failure
+
+

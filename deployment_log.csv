@@ -1,0 +1,19 @@
+timestamp,model_version,model_path,threshold,port,status
+2026-02-15 06:36:34,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 06:40:34,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 06:51:38,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 06:52:28,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 06:53:16,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 06:53:45,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 06:54:29,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 07:22:30,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 07:23:35,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 07:23:58,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 07:24:04,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 07:25:35,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 09:39:02,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 11:05:39,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 11:07:04,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 13:20:05,v5,models\model_v5.pkl,0.5,8000,STARTED
+2026-02-15 15:17:13,v6,models\model_v6.pkl,0.5,8000,STARTED
+2026-02-15 15:35:46,v6,models\model_v6.pkl,0.5,8000,STARTED

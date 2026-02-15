@@ -1,0 +1,20 @@
+
+Training Attempt Failed !!
+----------------------------------------
+Timestamp: 2026-02-13 17:40:21
+Script: src/train.py
+
+Data:
+  Data version used: v1
+  Training file: data/processed/v1_train.csv
+
+Model Configuration:
+  Algorithm: Logistic Regression
+  max iterations: 100
+  random_state: 42
+
+Failure Reason:
+  ValueError: could not convert string to float: 'L'
+
+Action to be taken:
+  Encode 'Type' column (map columns to numbers so that the ML model does not throw errors)
